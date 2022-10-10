@@ -1,0 +1,24 @@
+{
+	"category" : "Chip8",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TSL 11/7/2019 09:57",
+	"instvars" : [
+		"memory",
+		"registers",
+		"i",
+		"pc",
+		"stack",
+		"sp",
+		"keys",
+		"delay_timer",
+		"sound_timer",
+		"display",
+		"needRedraw" ],
+	"name" : "Chip8",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

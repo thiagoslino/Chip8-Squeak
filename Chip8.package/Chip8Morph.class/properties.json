@@ -1,0 +1,15 @@
+{
+	"category" : "Chip8",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TSL 1/26/2019 12:12",
+	"instvars" : [
+		"chip",
+		"delay" ],
+	"name" : "Chip8Morph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"newWithChip8:" : "ThiagoLino 6/6/2016 16:16" },
+	"instance" : {
+		"chip" : "ThiagoLino 6/6/2016 16:16",
+		"chip:" : "ThiagoLino 6/6/2016 16:17",
+		"defaultBounds" : "TSL 1/26/2019 12:25",
+		"delay" : "TSL 10/10/2022 10:44",
+		"delay:" : "TSL 10/10/2022 10:44",
+		"handlesKeyboard:" : "TSL 1/26/2019 11:38",
+		"initialize" : "TSL 10/10/2022 10:45",
+		"initializeScreen" : "TSL 10/7/2022 12:01",
+		"keyDown:" : "TSL 1/26/2019 11:44",
+		"keyMapping" : "TSL 1/26/2019 11:41",
+		"keyUp:" : "TSL 1/26/2019 11:44",
+		"repaint" : "TSL 10/7/2022 13:31",
+		"run" : "TSL 10/7/2022 14:00",
+		"step" : "TSL 10/10/2022 10:45",
+		"stepTime" : "TSL 10/10/2022 10:41" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "Chip8",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OperationCode9",
+	"pools" : [
+		 ],
+	"super" : "OperationCode",
+	"type" : "normal" }
