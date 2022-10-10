@@ -8,25 +8,30 @@ The original goal of these project was to learn how to code a simple emulator in
 
 ![alt text](https://github.com/thiagoslino/Chip8-Squeak/blob/master/screen.png "Chip-8 for Squeak")
 
-## ROMs
-A collection of public domain ROMs that can be used with this emulator can be found at:
- - https://www.zophar.net/pdroms/chip8/chip-8-games-pack.html
- - https://johnearnest.github.io/chip8Archive/?sort=platform
 
+## Installing and running a ROM
+ 1. Make sure you have Metacello installed, running:
+```Smalltalk
+Installer ensureRecentMetacello.
+```
+ 2. Load the project with:
+```Smalltalk
+Metacello new
+  baseline: 'Chip8';
+  repository: 'github://thiagoslino/Chip8-Squeak:master';
+  load
+```
 
-## Running a ROM
-After cloning this repo, open a workspace in Squeak and type:
-
+ 3. Running a ROM
 ```Smalltalk
 Chip8 runProgram: '/path/to/rom/filename'.
 ```
 You can change the game speed. The CHIP-8 had no specified clock speed, so we'll use a delay to control it. Different games run best at different speeds, so we can control it here. See Chip8 >> delay and Chip8 >> initialize.
 
-## Resources
-* https://en.wikipedia.org/wiki/CHIP-8
-* http://www.multigesture.net/articles/how-to-write-an-emulator-chip-8-interpreter/
-* http://devernay.free.fr/hacks/chip8/C8TECH10.HTM
-
+## ROMs
+A collection of public domain ROMs that can be used with this emulator can be found at:
+ - https://www.zophar.net/pdroms/chip8/chip-8-games-pack.html
+ - https://johnearnest.github.io/chip8Archive/?sort=platform
 
 ## Regular Keys
 
@@ -44,3 +49,8 @@ as follows:
 ## TODO
 * Automatic ROMs download from Zophar
 * Better morphic configuration (to configure speed, roms download button, pause, etc...)
+
+## Resources
+* https://en.wikipedia.org/wiki/CHIP-8
+* http://www.multigesture.net/articles/how-to-write-an-emulator-chip-8-interpreter/
+* http://devernay.free.fr/hacks/chip8/C8TECH10.HTM
