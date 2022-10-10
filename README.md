@@ -2,7 +2,7 @@
 
 ## What is it?
 
-This project is a Chip 8 emulator (interpreter) written in [Smalltalk (Squeak)](https://squeak.org).
+This project is a Chip 8 emulator (interpreter) written in [Squeak Smalltalk](https://squeak.org).
 
 The original goal of these project was to learn how to code a simple emulator in smalltalk.
 
