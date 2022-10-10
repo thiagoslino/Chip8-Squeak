@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfChip8",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfChip8",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

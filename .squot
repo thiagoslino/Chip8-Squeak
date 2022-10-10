@@ -1,3 +1,4 @@
 OrderedDictionary {
-	'Chip8.package' : #SquotCypressCodeSerializer
+	'Chip8.package' : #SquotCypressCodeSerializer,
+	'BaselineOfChip8.package' : #SquotCypressCodeSerializer
 }
