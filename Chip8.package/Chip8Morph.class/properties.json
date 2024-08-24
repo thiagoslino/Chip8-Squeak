@@ -1,13 +1,13 @@
 {
-	"category" : "Chip8",
+	"category" : "Chip8-View",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "TSL 1/26/2019 12:12",
 	"instvars" : [
-		"chip",
-		"delay" ],
+		"delay",
+		"presenter" ],
 	"name" : "Chip8Morph",
 	"pools" : [
 		 ],

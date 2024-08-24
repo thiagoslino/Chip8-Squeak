@@ -1,5 +1,5 @@
 {
-	"category" : "Chip8",
+	"category" : "Chip8-Model",
 	"classinstvars" : [
 		"SubOperationCode" ],
 	"classvars" : [

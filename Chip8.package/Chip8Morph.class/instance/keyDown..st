@@ -4,4 +4,4 @@ keyDown: anEvent
 	| keyIndex |
 	
 	keyIndex := self keyMapping indexOf: (anEvent keyValue asCharacter asLowercase) ifAbsent: [ ^ self ].
-	chip keys at: keyIndex put: 1.
+	presenter keyAt: keyIndex put: 1.

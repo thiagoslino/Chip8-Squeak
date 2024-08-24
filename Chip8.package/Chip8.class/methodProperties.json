@@ -3,10 +3,9 @@
 		"displayHeight" : "TSL 1/26/2019 12:24",
 		"displayWidth" : "TSL 1/26/2019 12:24",
 		"fontSet" : "ThiagoLino 6/21/2016 16:32",
-		"runProgram:" : "TSL 11/7/2019 09:57" },
+		"program:" : "tsl 8/24/2024 12:36" },
 	"instance" : {
-		"addDrawFlag" : "TSL 1/26/2019 12:22",
-		"asMorph" : "TSL 1/26/2019 11:57",
+		"addDrawFlag" : "tsl 8/24/2024 12:39",
 		"clearDisplay" : "TSL 1/25/2019 19:37",
 		"decrementSP" : "TSL 1/25/2019 21:16",
 		"delay_timer" : "ThiagoLino 3/22/2016 13:06",

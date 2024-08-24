@@ -1,8 +1,8 @@
 drawing
 repaint
  ^ [ :aCanvas |
-	0 to: (self chip display size - 1) do: [ :i | | color x y position |
-		(self chip displayAt: i) = 0
+	0 to: (presenter displaySize - 1) do: [ :i | | color x y position |
+		(presenter displayAt: i) = 0
 			ifTrue: [ color := Color black ]
 			ifFalse: [ color := Color white ].
 			

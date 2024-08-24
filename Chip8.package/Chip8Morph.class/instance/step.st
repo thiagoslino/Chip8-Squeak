@@ -1,7 +1,7 @@
 stepping and presenter
 step
-	self delay timesRepeat: [ self chip emulateCycle ].
-	self chip needRedraw
+	self delay timesRepeat: [ presenter emulateCycle ].
+	"self chip needRedraw
 			ifTrue: [
 				self changed.
-				self chip removeDrawFlag ].
+				self chip removeDrawFlag ]."

@@ -1,9 +1,7 @@
 {
 	"class" : {
-		"newWithChip8:" : "ThiagoLino 6/6/2016 16:16" },
+		"newWithPresenter:" : "tsl 8/24/2024 12:29" },
 	"instance" : {
-		"chip" : "ThiagoLino 6/6/2016 16:16",
-		"chip:" : "ThiagoLino 6/6/2016 16:17",
 		"defaultBounds" : "TSL 1/26/2019 12:25",
 		"delay" : "TSL 10/10/2022 10:44",
 		"delay:" : "TSL 10/10/2022 10:44",
@@ -11,14 +9,15 @@
 		"handlesKeyboard:" : "TSL 1/26/2019 11:38",
 		"handlesMouseOver:" : "tsl 10/24/2023 19:57",
 		"initialize" : "tsl 5/3/2024 20:28",
-		"keyDown:" : "TSL 1/26/2019 11:44",
+		"initializeWithPresenter:" : "tsl 8/24/2024 12:32",
+		"keyDown:" : "tsl 8/24/2024 12:51",
 		"keyMapping" : "TSL 1/26/2019 11:41",
-		"keyUp:" : "TSL 1/26/2019 11:44",
+		"keyUp:" : "tsl 8/24/2024 12:51",
 		"mouseEnter:" : "tsl 10/24/2023 19:57",
 		"mouseLeave:" : "tsl 10/24/2023 19:57",
-		"repaint" : "tsl 5/3/2024 20:24",
-		"run" : "tsl 10/24/2023 19:58",
+		"open" : "tsl 8/24/2024 12:42",
+		"repaint" : "tsl 8/24/2024 12:49",
 		"speedDown" : "tsl 10/24/2023 19:59",
 		"speedUp" : "tsl 10/24/2023 19:59",
-		"step" : "tsl 5/3/2024 20:30",
+		"step" : "tsl 8/24/2024 12:46",
 		"stepTime" : "TSL 10/10/2022 10:41" } }

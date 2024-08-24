@@ -1,13 +1,14 @@
 {
-	"category" : "Chip8-Model",
+	"category" : "Chip8-Presenter",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "TSL 1/26/2019 12:12",
+	"commentStamp" : "tsl 8/24/2024 12:25",
 	"instvars" : [
-		 ],
-	"name" : "OperationCode",
+		"model",
+		"view" ],
+	"name" : "Chip8Presenter",
 	"pools" : [
 		 ],
 	"super" : "Object",

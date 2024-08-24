@@ -1,5 +1,5 @@
 run
-run
+open
 	| container title footer closeButton speedUpButton speedDownButton |
 	container := AlignmentMorph newColumn.
 	container color: Color gray.

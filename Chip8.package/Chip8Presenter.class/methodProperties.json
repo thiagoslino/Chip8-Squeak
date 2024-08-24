@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"runProgram:" : "tsl 8/24/2024 12:41" },
+	"instance" : {
+		"defaulExtent" : "tsl 8/24/2024 12:33",
+		"displayAt:" : "tsl 8/24/2024 12:34",
+		"displaySize" : "tsl 8/24/2024 12:35",
+		"emulateCycle" : "tsl 8/24/2024 12:35",
+		"initializeWithProgram:" : "tsl 8/24/2024 12:48",
+		"keyAt:put:" : "tsl 8/24/2024 12:35" } }
