@@ -24,7 +24,7 @@ Metacello new
 
  3. Running a ROM
 ```Smalltalk
-Chip8 runProgram: '/path/to/rom/filename'.
+Chip8Presenter runProgram: '/path/to/rom/filename'.
 ```
 The CHIP-8 had no specified clock speed, so we'll use a delay to control it. Different games run best at different speeds, so we can control it here.
 
