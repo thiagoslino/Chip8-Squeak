@@ -6,7 +6,7 @@ This project is a Chip 8 emulator (interpreter) written in [Squeak Smalltalk](ht
 
 The original goal of these project was to learn how to code a simple emulator in smalltalk.
 
-![alt text](https://github.com/thiagoslino/Chip8-Squeak/blob/master/screen.png "Chip-8 for Squeak")
+![alt text](https://github.com/thiagoslino/Chip8-Squeak/blob/master/chip-8.png "Chip-8 for Squeak")
 
 
 ## Installing and running a ROM
