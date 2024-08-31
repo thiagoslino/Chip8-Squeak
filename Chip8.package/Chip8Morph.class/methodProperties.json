@@ -2,7 +2,6 @@
 	"class" : {
 		"newWithPresenter:" : "tsl 8/24/2024 12:29" },
 	"instance" : {
-		"defaultBounds" : "TSL 1/26/2019 12:25",
 		"delay" : "TSL 10/10/2022 10:44",
 		"delay:" : "TSL 10/10/2022 10:44",
 		"drawOn:" : "tsl 8/24/2024 13:19",
@@ -10,9 +9,8 @@
 		"handlesMouseOver:" : "tsl 10/24/2023 19:57",
 		"initialize" : "tsl 5/3/2024 20:28",
 		"initializeWithPresenter:" : "tsl 8/24/2024 12:32",
-		"keyDown:" : "tsl 8/24/2024 12:51",
-		"keyMapping" : "TSL 1/26/2019 11:41",
-		"keyUp:" : "tsl 8/24/2024 12:51",
+		"keyDown:" : "tsl 8/31/2024 11:17",
+		"keyUp:" : "tsl 8/31/2024 11:17",
 		"mouseEnter:" : "tsl 10/24/2023 19:57",
 		"mouseLeave:" : "tsl 10/24/2023 19:57",
 		"open" : "tsl 8/24/2024 12:42",
