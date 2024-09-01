@@ -46,11 +46,12 @@ as follows:
 | `7` `8` `9` `E` | `A` `S` `D` `F` |
 | `A` `0` `B` `F` | `Z` `X` `C` `V` |
 
-## TODO
-* Automatic ROMs download from Zophar
-* Better morphic configuration (to configure speed, roms download button, pause, etc...)
-
 ## Resources
 * https://en.wikipedia.org/wiki/CHIP-8
 * http://www.multigesture.net/articles/how-to-write-an-emulator-chip-8-interpreter/
 * http://devernay.free.fr/hacks/chip8/C8TECH10.HTM
+* https://github.com/tobiasvl/awesome-chip-8
+
+## TODO
+* Automatic ROMs download from Zophar
+* Better morphic configuration (roms download button, etc...)
