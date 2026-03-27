@@ -1,10 +1,9 @@
 as yet unclassified
 executeInstructionFor: anHexOperationCode on: aChip8
-	| e0 ee |
-	e0 := 16r00E0.
-	ee := 16r00EE.
+	| nn |
+	nn := self opcodeNN: anHexOperationCode.
 	
-	(self opcodeNN: anHexOperationCode ) = e0 
+	nn = 16r00E0 
 		ifTrue:[
 			"Clear the display"
 			aChip8 clearDisplay.
@@ -12,7 +11,7 @@ executeInstructionFor: anHexOperationCode on: aChip8
 			aChip8 addDrawFlag.
 		].
 	
-	(self opcodeNN: anHexOperationCode ) = ee 
+	nn = 16r00EE 
 		ifTrue:[
 			"Return from subroutine."
 			aChip8 stackAt: (aChip8 sp) put: nil. "review"
