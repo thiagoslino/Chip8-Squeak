@@ -1,31 +1,11 @@
 run
 open
-	| container title footer closeButton speedUpButton speedDownButton |
+	| container title footer button |
 	container := AlignmentMorph newColumn.
 	container color: Color gray.
 	container  hResizing: #shrinkWrap; 
 	     vResizing: #shrinkWrap.	
 
-	title := StringMorph new 
-           contents: 'Chip-8 Emulator'; 
-           color: Color white.
-     title hResizing: #spaceFill.
-	
-	closeButton := SimpleButtonMorph new
- 		label: 'close x' ;
- 		target: container; 
- 		actionSelector: #delete.
-
-	speedUpButton := SimpleButtonMorph new
- 		label: 'speed +';
- 		target: self; 
- 		actionSelector: #speedUp.
-
- 	speedDownButton := SimpleButtonMorph new
- 		label: 'speed -';
- 		target: self; 
- 		actionSelector: #speedDown.	
-			
 	footer := Morph new.
 	footer width: self width;
       	height: 30;
@@ -36,9 +16,40 @@ open
 		wrapCentering: #topLeft;
 		wrapDirection: #topToBottom.
 
-	footer addMorphBack: closeButton.
-	footer addMorphBack: speedDownButton.
-	footer addMorphBack: speedUpButton.
+	title := StringMorph new 
+           contents: 'Chip-8 Emulator'; 
+           color: Color white.
+     title hResizing: #spaceFill.
+	
+	button := SimpleButtonMorph new
+ 		label: 'close x' ;
+ 		target: container; 
+ 		actionSelector: #delete.
+	footer addMorphBack: button.
+
+	button := SimpleButtonMorph new
+ 		label: 'speed +';
+ 		target: self; 
+ 		actionSelector: #speedUp.
+	footer addMorphBack: button.
+	
+ 	button := SimpleButtonMorph new
+ 		label: 'speed -';
+ 		target: self; 
+ 		actionSelector: #speedDown.	
+	footer addMorphBack: button.
+
+	button := SimpleButtonMorph new
+ 		label: 'scale +';
+ 		target: self; 
+ 		actionSelector: #scaleUp.
+	footer addMorphBack: button.
+
+     button := SimpleButtonMorph new
+ 		label: 'scale -';
+ 		target: self; 
+ 		actionSelector: #scaleDown.
+	footer addMorphBack: button.
 
 	container addMorphBack: title.
 	container addMorphBack: self.
